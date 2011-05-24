@@ -1,0 +1,70 @@
+<!-- Exchange may have 1 to many -->
+<!-- BirthDate, Age, SchoolYear, MotherName, FatherName are for students only -->
+	<!ELEMENT Exchanges (Exchange+)>
+	<!ELEMENT Exchange (Name, Address, Telephone, EmailAddress, ApplicationDate, 
+	AvailableDate, BirthCountry, BirthDate?, Age?, Gender, SchoolName, 
+	SchoolAddress, SchoolYear?, MotherName?, FatherName?, EmergencyTelephone, 
+	FeePaid, Essay, LanguagesSpoken, LanguagesSpoken+, CountryChoices,
+	CountryChoices, CountryChoices, CountryChoices, CountryChoices)>
+	<!ELEMENT Telephone (#PCDATA)>
+	<!ELEMENT EmailAddress (#PCDATA)>
+	<!ELEMENT BirthCountry (#PCDATA)>
+	<!ELEMENT Age (#PCDATA)>
+	<!ELEMENT Gender (#PCDATA)>
+	<!ELEMENT SchoolName (#PCDATA)>
+	<!ELEMENT SchoolYear (#PCDATA)>
+	<!ELEMENT EmergencyTelephone (#PCDATA)>
+	<!ELEMENT FeePaid (#PCDATA)>
+	<!ELEMENT Essay (#PCDATA)>
+	<!ELEMENT LanguagesSpoken (#PCDATA)>
+	<!ELEMENT CountryChoices (#PCDATA)>
+		<!ATTLIST Exchange Type (S | T) #REQUIRED>
+		<!ATTLIST Exchange NumberID ID #REQUIRED>
+		<!ATTLIST FeePaid Currency CDATA #REQUIRED>
+		<!ATTLIST LanguagesSpoken Fluency (1 | 2| 3| 4) #REQUIRED>
+		<!ATTLIST CountryChoices Preference (1| 2| 3| 4| 5) #REQUIRED>
+	
+<!-- MiddleInitial is optional -->
+	<!ELEMENT Name (LastName, FirstName, MiddleInitial?)>
+	<!ELEMENT MotherName (LastName, FirstName, MiddleInitial?)>
+	<!ELEMENT FatherName (LastName, FirstName, MiddleInitial?)>
+	<!ELEMENT LastName (#PCDATA)>
+	<!ELEMENT FirstName (#PCDATA)>
+	<!ELEMENT MiddleInitial (#PCDATA)>
+	
+<!-- Apt is optional -->	
+	<!ELEMENT Address (Street, Apt?, City, State, ZipCode, Country)>
+	<!ELEMENT SchoolAddress (Street, Apt?, City, State, ZipCode, Country)>
+	<!ELEMENT Street (#PCDATA)>
+	<!ELEMENT Apt (#PCDATA)>
+	<!ELEMENT City (#PCDATA)>
+	<!ELEMENT State (#PCDATA)>
+	<!ELEMENT ZipCode (#PCDATA)>
+	<!ELEMENT Country (#PCDATA)>
+	
+	<!ELEMENT ApplicationDate (Month, Day, Year)>
+	<!ELEMENT AvailableDate (Month, Day, Year)>
+	<!ELEMENT BirthDate (Month, Day, Year)>
+	<!ELEMENT Month (#PCDATA)>
+	<!ELEMENT Day (#PCDATA)>
+	<!ELEMENT Year (#PCDATA)>
+	
+	<!-- Code list for both Country and CountryChoices elements -->
+	<!ENTITY US "United States">
+	<!ENTITY JP "Japan">
+	<!ENTITY BZ "Brazil">
+	<!ENTITY FR "France">
+	<!ENTITY MX "Mexico">
+	<!ENTITY IT "Italy">
+	<!ENTITY GB "United Kingdom">
+	<!ENTITY CH "China">
+	<!ENTITY IN "India">
+	<!ENTITY SA "South Africa">
+	<!ENTITY GR "Germany">
+	<!ENTITY EG "Egypt">
+	
+	<!-- LanguagesSpoken code list -->
+	<!ENTITY EN "English">
+	<!ENTITY ES "Spanish">
+	<!ENTITY JA "Japanese">
+	<!ENTITY FR- "French">

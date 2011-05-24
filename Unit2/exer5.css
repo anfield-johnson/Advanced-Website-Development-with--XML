@@ -1,0 +1,16 @@
+
+items {vertical-align : top;}                             
+item    {width : 250px;  display : inline-block;  margin : 1em; float : left; border : 1px solid red;}
+
+description, country, sellingPrice, cost , quantityOnHand, backorderedAmount , dateLastReceived , quantitySoldYearToDate, remarks, supplier, number, shipmentLeadTime, cost, supplier
+{float : left; clear : left; display : inline-block; width : 250px;}
+description, sellingPrice, cost , quantity On Hand, dateLastReceived , quantitySoldYearToDate, remarks, supplier, number, shipmentLeadTime, cost, supplier, warehouseSection, warehouseShelve
+{color : navy;}
+country  {font-weight : bold; color : black;}
+description  {text-align : center; font-weight : bold; border-bottom : 2px solid navy;}
+wareHouseSection {clear : left;}
+warehouseShelve {margin-left : 1em;}
+supplier {margin : 1em;}
+supplier * {color : green;}
+backorderedAmount[dateOrdered] {color : red;}
+backorderedAmount {color : navy;}

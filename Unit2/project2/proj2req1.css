@@ -1,0 +1,126 @@
+* {
+			color: blue;
+			display: inline-block;
+			font-family: arial;
+}
+
+exchange {
+			text-align: center;
+			vertical-align: top;
+			margin-bottom: 1ex;
+			margin-right: 2em;
+			border: 2px outset navy;
+			width: 250px;
+}
+
+name, address, street, apartment, city, country, telephone, emailAddress, applicationDate, availableDate, birthCountry, dateOfBirth, age, gender, schoolName, schoolAddress, yearInSchool, motherName, fatherName, emergencyTelephone, feePaid, essay, languagesSpoken, countryChoices {
+			clear: left;
+			float: left;
+}
+
+stateOrProvince, zipOrPostalCode {
+			float: left;
+}
+
+city, stateOrProvince, zipOrPostalCode, lastName, firstName {
+			margin-right: .25em;
+}
+
+name {
+			text-align: center;
+			font-style: bold;
+			border-bottom:2px outset navy;
+			font-variant: small-caps;
+			width: 250px;
+}
+
+address {
+			background: lightblue;
+			width: 250px;
+}
+
+street {
+			padding-top: .5em;
+}
+
+telephone {
+			padding-top: 1ex;
+}
+
+emailAddress {
+			padding-top: 1ex;
+			padding-bottom: 1ex;
+}
+
+applicationDate, availableDate, dateOfBirth {
+			font-style: italic;
+}
+
+schoolName {
+			color: #2DC100;
+			padding-top: 1ex;
+			border-top: 2px dotted #2DC100;
+}
+
+motherName {
+			border-top: 2px solid pink;
+}
+
+motherName * {
+			color: pink;
+}
+
+fatherName {
+			border-top: 2px solid blue;
+}
+
+fatherName * {
+			color: blue;
+}
+
+motherName, fatherName {
+			padding-top: 1ex;
+}
+
+schoolAddress {
+			padding-top: .5ex;
+}
+schoolAddress * {
+			color: #2DC100;
+}
+
+emergencyTelephone {
+			padding-top: 1ex;
+			padding-bottom: 1ex;
+			color: red;
+}
+
+languagesSpoken {
+			color: #006DD3;
+}
+
+countryChoices {
+			color: #AA0300;
+}
+
+countryChoices[preference="1"] {
+			color: #6600CC;
+}
+
+feePaid {
+			color: black;
+}
+
+feePaid[currency="USD"] {
+			color: green;
+}
+
+feePaid[currency="EUR"] {
+			color: blue;
+}
+feePaid[currency="CN"] {
+			color: red;
+}
+feePaid[currency="MMN"] {
+			color: lightblue;
+}

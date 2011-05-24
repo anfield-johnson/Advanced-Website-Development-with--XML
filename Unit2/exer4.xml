@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!-- 
+Author: Nathan Stier 
+Project: Exercise #4 
+File References: none 
+--> 
+
+<!DOCTYPE items [
+<!ELEMENT items (item+) >
+<!ELEMENT   item (description, country, sellingPrice, cost, quantityOnHand, backorderedAmount, dateLastReceived, quantitySoldYearToDate, warehouseSection, warehouseShelve, remarks, supplier+) >
+<!ATTLIST 	item itemNumber ID #REQUIRED>
+<!ELEMENT       description (#PCDATA) >
+<!ELEMENT       country (#PCDATA) >
+<!ELEMENT       sellingPrice (#PCDATA) >
+<!ATTLIST 		sellingPrice saleItem (Y|N) #REQUIRED>
+<!ELEMENT       cost (#PCDATA) >
+<!ELEMENT       quantityOnHand (#PCDATA) >
+<!ELEMENT       backorderedAmount (#PCDATA) >
+<!ATTLIST 		backorderedAmount dateOrdered CDATA #IMPLIED>
+<!ELEMENT       dateLastReceived  (month, day, year) >
+<!ELEMENT           month (#PCDATA) >
+<!ELEMENT           day (#PCDATA) >
+<!ELEMENT           year (#PCDATA) >
+<!ELEMENT       quantitySoldYearToDate (#PCDATA) >
+<!ELEMENT       warehouseSection (#PCDATA) >
+<!ELEMENT       warehouseShelve (#PCDATA) >
+<!ELEMENT       remarks (#PCDATA) >
+<!ELEMENT       supplier (number, shipmentLeadTime, cost) >
+<!ELEMENT           number (#PCDATA) >
+<!ELEMENT           shipmentLeadTime (#PCDATA) >
+<!ATTLIST 		shipmentLeadTime unit (days|weeks) #REQUIRED>
+<!--EMENT           cost (#PCDATA) -->
+
+
+<!ENTITY us "Made in The United States">
+<!ENTITY ch "Made in China">
+<!ENTITY in "Made in India">
+<!ENTITY sa "Made in South Africa">
+<!ENTITY jp "Made in Japan">
+<!ENTITY bz "Made in Brazil">
+<!ENTITY gr "Made in Germany">
+
+]>
+               
+
+
+
+<items>
+    <item itemNumber = "I23"> 
+      <description>Widget</description>
+      <country>&us;</country>
+      <sellingPrice saleItem="Y">$23</sellingPrice> 
+      <cost>$5</cost> 
+      <quantityOnHand>55</quantityOnHand> 
+      <backorderedAmount dateOrdered="09182009">23</backorderedAmount> 
+      <dateLastReceived>
+        <month>5</month> 
+        <day>23</day> 
+        <year>10</year> 
+      </dateLastReceived>
+      <quantitySoldYearToDate>10</quantitySoldYearToDate> 
+      <warehouseSection>A</warehouseSection> 
+      <warehouseShelve>1</warehouseShelve>
+      <remarks><![CDATA[
+      	This item is sold "as is" with a limited 90-day warranty. It is part of our "Scratch & Dent" sale.
+   ]]></remarks>
+      <supplier>
+        <number>12</number> 
+        <shipmentLeadTime unit="weeks">2</shipmentLeadTime> 
+        <cost>3</cost> 
+      </supplier>
+      <supplier>
+        <number>13</number> 
+        <shipmentLeadTime unit="days">1</shipmentLeadTime> 
+        <cost>4</cost> 
+      </supplier>
+    </item>
+    <item itemNumber="I5"> 
+      <description>Gadget</description>
+      <country>&in;</country>
+      <sellingPrice saleItem="N">$34</sellingPrice> 
+      <cost>$5</cost> 
+      <quantityOnHand>45</quantityOnHand> 
+      <backorderedAmount>0</backorderedAmount> 
+      <dateLastReceived>
+        <month>12</month> 
+        <day>12</day> 
+        <year>10</year> 
+      </dateLastReceived>
+      <quantitySoldYearToDate>10</quantitySoldYearToDate> 
+      <warehouseSection>B</warehouseSection> 
+      <warehouseShelve>2</warehouseShelve> 
+      <remarks>
+      	<![CDATA[
+      		Customers can view product information about this item at: http://www.trellisstructures.com?19234
+		]]></remarks>
+      <supplier>
+        <number>12</number> 
+        <shipmentLeadTime unit="weeks">2</shipmentLeadTime> 
+        <cost>12</cost> 
+      </supplier>
+      <supplier>
+        <number>13</number> 
+        <shipmentLeadTime unit="days">1</shipmentLeadTime> 
+        <cost>6</cost> 
+      </supplier>
+    </item>
+  </items>

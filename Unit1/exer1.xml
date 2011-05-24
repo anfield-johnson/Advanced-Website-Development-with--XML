@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!-- Nathan Stier -->
+<!-- Exercise 1 -->
+<campuses>
+<campus>
+	<campusName>Truax</campusName>
+	<address>
+		<street>3550 Anderson St.</street>
+		<city>Madison</city>
+		<state>WI   
+		</state>
+		<zipCode>53704</zipCode>
+	</address>
+	<telephone>(608) 246-246-6100</telephone>
+	<url>http://matcmadison.edu/matc/</url>
+</campus>
+<campus>
+	<campusName>Downtown</campusName>
+	<address>
+		<street>211 N. Carroll St.</street>
+		<city>Madison</city>
+		<state>WI</state>
+		<zipCode>53703</zipCode>
+	</address>
+	<telephone>(608) 258-2300</telephone>
+	<url>http://matcmadison.edu/matc/campuses/madison/downtownprograms.shtm</url>
+</campus>
+<campus>
+	<campusName>Fort Atkinson</campusName>
+	<address>
+		<street>827 Banker Rd.</street   >
+		<city>Fort Atkinson</city>
+		<state>WI</state>
+		<zipCode>53538-1069</zipCode>
+	</address>
+	<telephone>(920) 568-7200</telephone>
+	<url>http://matcmadison.edu/matc/campuses/fortatkinson/</url>
+</campus>
+<campus>
+	<campusName>Portage</campusName>
+	<address>
+		<street>330 West Collins St.</street>
+		<city>Portage</city>
+		<state>WI</state>
+		<zipCode>53901</zipCode>
+	</address>
+	<telephone>(608) 745-3100</telephone>
+	<url>http://matcmadison.edu/matc/campuses/portage/</url>
+</campus>
+<campus>
+	<campusName>Reedsburg</campusName>
+	<address>
+		<street>300 Alexander Ave.</street>
+		<city>Reedsburg</city>
+		<state>WI</state>
+		<zipCode>53959</zipCode>
+	</address>
+	<telephone>(608) 524-7800</telephone>
+	<url>http://matcmadison.edu/matc/campuses/reedsburg/</url>
+</campus>
+<campus>
+	<campusName>Watertown</campusName>
+	<address>
+		<street>300 W. Main St.</street>
+		<city>Watertown</city>
+		<state>WI</state>
+		<zipCode>53704</zipCode>
+	</address>
+	<telephone>(920) 206-8000</telephone>
+	<url>http://matcmadison.edu/matc/campuses/watertown/</url>
+</campus>
+</campuses>

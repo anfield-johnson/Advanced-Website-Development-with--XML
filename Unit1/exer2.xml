@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- Nathan Stier   -->
+<!-- Exercise 2   -->
+<items>
+    <item>
+      <itemNumber>23</itemNumber> 
+      <description>Widget</description> 
+      <sellingPrice>$23</sellingPrice> 
+      <cost>$5</cost> 
+      <quantityOnHand>55</quantityOnHand> 
+      <backorderedAmount>23</backorderedAmount> 
+      <dateLastReceived>
+        <month>5</month> 
+        <day>23</day> 
+        <year>10</year> 
+      </dateLastReceived>
+      <quantitySoldYearToDate>10</quantitySoldYearToDate> 
+      <warehouseSection>A</warehouseSection> 
+      <warehouseShelve>1</warehouseShelve> 
+      <supplier>
+        <number>12</number> 
+        <shipmentLeadTime>2 days</shipmentLeadTime> 
+        <cost>3</cost> 
+      </supplier>
+      <supplier>
+        <number>13</number> 
+        <shipmentLeadTime>1 days</shipmentLeadTime> 
+        <cost>4</cost> 
+      </supplier>
+    </item>
+    <item>
+      <itemNumber>5</itemNumber> 
+      <description>Gadget</description> 
+      <sellingPrice>$34</sellingPrice> 
+      <cost>$5</cost> 
+      <quantityOnHand>45</quantityOnHand> 
+      <backorderedAmount>0</backorderedAmount> 
+      <dateLastReceived>
+        <month>12</month> 
+        <day>12</day> 
+        <year>10</year> 
+      </dateLastReceived>
+      <quantitySoldYearToDate>10</quantitySoldYearToDate> 
+      <warehouseSection>B</warehouseSection> 
+      <warehouseShelve>2</warehouseShelve> 
+      <supplier>
+        <number>12</number> 
+        <shipmentLeadTime>2 days</shipmentLeadTime> 
+        <cost>12</cost> 
+      </supplier>
+      <supplier>
+        <number>13</number> 
+        <shipmentLeadTime>1 days</shipmentLeadTime> 
+        <cost>6</cost> 
+      </supplier>
+    </item>
+  </items>

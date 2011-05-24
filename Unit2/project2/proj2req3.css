@@ -1,0 +1,66 @@
+* {
+	font-family: arial;
+	color: blue;
+}
+
+h1 {
+	color: navy;
+	font-size: 1.5em;
+}
+
+hr {
+	clear: both;
+}
+
+.exchange {
+	width: 1000px;
+	min-height:680px;
+	clear: both;
+	margin-top: 10px;
+	border: 2px solid black;
+}
+
+.exchange * {
+}
+
+.exchange * * {
+	width: 246px;
+	float: left;
+	padding: 2px;
+	min-height: 1.2em;
+}
+
+.essay {
+	width: 746px;
+}
+
+.newline {
+	clear: left;
+}
+
+.header * {
+	color: yellow;
+	background: black;
+}
+
+.name {
+	background: navy;
+}
+
+.name * {
+	color: yellow;
+	background: navy;
+}
+
+.name .label, .header .label {
+	color: yellow;
+}
+
+.label {
+	color: purple;
+	font-weight: bold;
+}
+
+.countries {
+	min-height: 120px;
+}

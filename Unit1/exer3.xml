@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!-- Nathan Stier   -->
+<!-- Exercise 3   -->
+<items>
+    <item itemNumber = "I23"> 
+      <description>Widget</description> 
+      <sellingPrice saleItem="Y">$23</sellingPrice> 
+      <cost>$5</cost> 
+      <quantityOnHand>55</quantityOnHand> 
+      <backorderedAmount dateOrdered="09182009">23</backorderedAmount> 
+      <dateLastReceived>
+        <month>5</month> 
+        <day>23</day> 
+        <year>10</year> 
+      </dateLastReceived>
+      <quantitySoldYearToDate>10</quantitySoldYearToDate> 
+      <warehouseSection>A</warehouseSection> 
+      <warehouseShelve>1</warehouseShelve>
+      <Remarks><![CDATA[
+      	This item is sold "as is" with a limited 90-day warranty. It is part of our "Scratch & Dent" sale.
+   ]]></Remarks>
+      <supplier>
+        <number>12</number> 
+        <shipmentLeadTime unit="weeks">2</shipmentLeadTime> 
+        <cost>3</cost> 
+      </supplier>
+      <supplier>
+        <number>13</number> 
+        <shipmentLeadTime unit="days">1</shipmentLeadTime> 
+        <cost>4</cost> 
+      </supplier>
+    </item>
+    <item itemNumber="I5"> 
+      <description>Gadget</description> 
+      <sellingPrice saleItem="N">$34</sellingPrice> 
+      <cost>$5</cost> 
+      <quantityOnHand>45</quantityOnHand> 
+      <backorderedAmount>0</backorderedAmount> 
+      <dateLastReceived>
+        <month>12</month> 
+        <day>12</day> 
+        <year>10</year> 
+      </dateLastReceived>
+      <quantitySoldYearToDate>10</quantitySoldYearToDate> 
+      <warehouseSection>B</warehouseSection> 
+      <warehouseShelve>2</warehouseShelve> 
+      <Remarks>
+      	<![CDATA[
+      		Customers can view product information about this item at: http://www.trellisstructures.com?19234
+		]]></Remarks>
+      <supplier>
+        <number>12</number> 
+        <shipmentLeadTime unit="weeks">2</shipmentLeadTime> 
+        <cost>12</cost> 
+      </supplier>
+      <supplier>
+        <number>13</number> 
+        <shipmentLeadTime unit="days">1</shipmentLeadTime> 
+        <cost>6</cost> 
+      </supplier>
+    </item>
+  </items>

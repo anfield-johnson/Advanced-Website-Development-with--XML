@@ -1,0 +1,264 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="exchange.xsl" ?>
+<!-- 
+Author: Nathan Stier 
+Project: XML Project 3 Req 2
+File References:  exchange.xsl 
+--> 
+<exchanges>
+    <exchange type="S" number="E00001">
+        <name>
+            <lastName>Stier</lastName>
+            <firstName>Nathan</firstName>
+            <middleInitial>C</middleInitial>
+        </name>
+        <address>
+            <street>81 Lakewood Gardens Ln</street>
+            <city>Madison</city>
+            <stateOrProvince>WI</stateOrProvince>
+            <zipOrPostalCode>53704</zipOrPostalCode>
+            <country>United States</country>
+        </address>
+        <telephone>(608) 448-6283</telephone>
+        <emailAddress>XML@nathanstier.com</emailAddress>
+        <applicationDate>
+            <month>1</month>
+            <day>13</day>
+            <year>2011</year>
+        </applicationDate>
+        <availableDate>
+            <month>1</month>
+            <day>31</day>
+            <year>2011</year>
+        </availableDate>
+        <birthCountry>United States</birthCountry>
+        <dateOfBirth>
+            <month>7</month>
+            <day>21</day>
+            <year>1981</year>
+        </dateOfBirth>
+        <age>29</age>
+        <gender>male</gender>
+        <schoolName>MATC Madison</schoolName>
+        <schoolAddress>
+            <street>3550 Anderson Ave</street>
+            <city>Madison</city>
+            <stateOrProvince>WI</stateOrProvince>
+            <zipOrPostalCode>53704</zipOrPostalCode>
+            <country>United States</country>
+        </schoolAddress>
+        <yearInSchool>Sophmore</yearInSchool>
+        <motherName>
+            <lastName>Stier</lastName>
+            <firstName>Susan</firstName>
+            <middleInitial>M</middleInitial>
+        </motherName>
+        <fatherName>
+            <lastName>Stier</lastName>
+            <firstName>John</firstName>
+            <middleInitial>H</middleInitial>
+        </fatherName>
+        <emergencyTelephone>(608) 837 7726</emergencyTelephone>
+        <feePaid currency="USD">12</feePaid>
+        <essay>
+            <![CDATA[
+                Haha! Real Person!!
+            ]]>
+        </essay>
+        <languagesSpoken fluency="4">English</languagesSpoken>
+        <languagesSpoken fluency="2">German</languagesSpoken>
+        <countryChoices preference="3">Switzerland</countryChoices>
+        <countryChoices preference="4">India</countryChoices>
+        <countryChoices preference="5">Canada</countryChoices>
+		<countryChoices preference="1">Germany</countryChoices>
+        <countryChoices preference="2">Austria</countryChoices>
+    </exchange>
+    
+    <exchange type="S" number="E00002">
+        <name>
+            <lastName>Haverman-Davidson</lastName>
+            <firstName>Danny </firstName>
+            <middleInitial>MMM </middleInitial>
+        </name>
+        <address>
+            <street>123 Some St</street>
+            <city>Townsville </city>
+            <stateOrProvince>ST</stateOrProvince>
+            <zipOrPostalCode>12345</zipOrPostalCode>
+            <country>United States</country>
+        </address>
+        <telephone>(800) 555-5555</telephone>
+        <emailAddress>Email@address.com</emailAddress>
+        <applicationDate>
+            <month>5</month>
+            <day> 4</day>
+            <year>2006</year>
+        </applicationDate>
+        <availableDate>
+            <month>5</month>
+            <day>4</day>
+            <year>2006</year>
+        </availableDate>
+        <birthCountry>United States</birthCountry>
+        <dateOfBirth>
+            <month>7</month>
+            <day>21</day>
+            <year>1981</year>
+        </dateOfBirth>
+        <age>29</age>
+        <gender>male</gender>
+        <schoolName>Schoolsville School</schoolName>
+        <schoolAddress>
+            <street>12 School St</street>
+            <city>Schoolville</city>
+            <stateOrProvince>ST</stateOrProvince>
+            <zipOrPostalCode>12345</zipOrPostalCode>
+            <country>United States</country>
+        </schoolAddress>
+        <yearInSchool>Freshman</yearInSchool>
+        <motherName>
+            <lastName>Haverman</lastName>
+            <firstName>Martha</firstName>
+        </motherName>
+        <fatherName>
+            <lastName>Davidson</lastName>
+            <firstName>Davie</firstName>
+            <middleInitial>D.</middleInitial>
+        </fatherName>
+        <emergencyTelephone>(555) 555-5555</emergencyTelephone>
+        <feePaid currency="EUR">12</feePaid>
+        <essay>
+            <![CDATA[
+                I are Awesome!!
+            ]]>
+        </essay>
+        <languagesSpoken fluency="1">English</languagesSpoken>
+        <languagesSpoken fluency="4">Dutch</languagesSpoken>
+        <countryChoices preference="3">France</countryChoices>
+        <countryChoices preference="4">Switzerland</countryChoices>
+        <countryChoices preference="5">India</countryChoices>
+		<countryChoices preference="1">England</countryChoices>
+        <countryChoices preference="2">German</countryChoices>
+    </exchange>
+    
+    <exchange type="S" number="E00003">
+        <name>
+            <lastName>Smith</lastName>
+            <firstName>Maggie</firstName>
+            <middleInitial></middleInitial>
+        </name>
+        <address>
+            <street>123 Street st</street>
+            <apartment>308</apartment>
+            <city>Town</city>
+            <stateOrProvince>ST</stateOrProvince>
+            <zipOrPostalCode>12345</zipOrPostalCode>
+            <country>United States</country>
+        </address>
+        <telephone>(608) 555 1234</telephone>
+        <emailAddress>Maggie@email.com</emailAddress>
+        <applicationDate>
+            <month>12</month>
+            <day>12</day>
+            <year>2005</year>
+        </applicationDate>
+        <availableDate>
+            <month>1</month>
+            <day>1</day>
+            <year>2006</year>
+        </availableDate>
+        <birthCountry>China</birthCountry>
+        <dateOfBirth>
+            <month>5</month>
+            <day>25</day>
+            <year>1986</year>
+        </dateOfBirth>
+        <age>25</age>
+        <gender>female</gender>
+        <schoolName>Foo</schoolName>
+        <schoolAddress>
+            <street>1234 Bar St</street>
+            <apartment></apartment>
+            <city>FooBar</city>
+            <stateOrProvince>UT</stateOrProvince>
+            <zipOrPostalCode>12345</zipOrPostalCode>
+            <country>United States</country>
+        </schoolAddress>
+        <yearInSchool>Freshman</yearInSchool>
+        <motherName>
+            <lastName>Smith</lastName>
+            <firstName>Mary</firstName>
+        </motherName>
+        <fatherName>
+            <lastName>Smith</lastName>
+            <firstName>Mathew</firstName>
+            <middleInitial>JJ</middleInitial>
+        </fatherName>
+        <emergencyTelephone>(123) 456 7890</emergencyTelephone>
+        <feePaid currency="CN">12</feePaid>
+        <essay>
+            <![CDATA[
+                I am from another country.
+            ]]>
+        </essay>
+        <languagesSpoken fluency="4">Chinese</languagesSpoken>
+        <languagesSpoken fluency="1">English</languagesSpoken>
+        <countryChoices preference="3">France</countryChoices>
+        <countryChoices preference="4">Canada</countryChoices>
+        <countryChoices preference="1">United States</countryChoices>
+        <countryChoices preference="2">England</countryChoices>
+        <countryChoices preference="5">Australia</countryChoices>
+    </exchange>
+    
+    <exchange type="T" number="E00004">
+        <name>
+            <lastName>Fredrick</lastName>
+            <firstName>Freddy</firstName>
+            <middleInitial>F</middleInitial>
+        </name>
+        <address>
+            <street>122 Street St</street>
+            <apartment>1</apartment>
+            <city>London</city>
+            <stateOrProvince>London</stateOrProvince>
+            <zipOrPostalCode>12345</zipOrPostalCode>
+            <country>England</country>
+        </address>
+        <telephone>1(608) 555 5555</telephone>
+        <emailAddress>My@Email.com</emailAddress>
+        <applicationDate>
+            <month>1</month>
+            <day>2</day>
+            <year>2003</year>
+        </applicationDate>
+        <availableDate>
+        	<month>1</month>
+            <day>2</day>
+            <year>2003</year>
+        </availableDate>
+        <birthCountry>Spain</birthCountry>
+        <gender>male</gender>
+        <schoolName>School</schoolName>
+        <schoolAddress>
+            <street>123 Street st</street>
+            <city>London</city>
+            <stateOrProvince>London</stateOrProvince>
+            <zipOrPostalCode>12345</zipOrPostalCode>
+            <country>England</country>
+    	</schoolAddress>
+        <emergencyTelephone></emergencyTelephone>
+        <feePaid currency="EUR">12</feePaid>
+        <essay>
+            <![CDATA[
+            	I am fluent in two languages.
+            ]]>
+        </essay>
+        <languagesSpoken fluency="4">Spanish</languagesSpoken>
+        <languagesSpoken fluency="4">English</languagesSpoken>
+        <countryChoices preference="1">Mexico</countryChoices>
+        <countryChoices preference="4">Portugal</countryChoices>
+        <countryChoices preference="2">Brazil</countryChoices>
+        <countryChoices preference="3">Spain</countryChoices>
+        <countryChoices preference="5"></countryChoices>
+    </exchange>
+</exchanges>
